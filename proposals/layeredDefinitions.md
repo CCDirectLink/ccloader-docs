@@ -1,6 +1,6 @@
 # Multi-layer definitions
+Use previously validated definitions to generate new ones.
 
-Multi-layer definitions
 
 ## Problems
 * Some definitions break after a new update because they were dependent on the order of code.
@@ -34,3 +34,8 @@ People who make definitions.
 
 ## References
 Original Document: https://docs.google.com/document/d/1a7PvKg3BbOsCPnK41ZS-40g_q5Cg0lQepQ56rd0YUPg/edit
+
+---
+
+* Author: ac2pic (Discord: 208763015657553921)
+* Champion: 2767mr (Discord: 224155607278551040)
