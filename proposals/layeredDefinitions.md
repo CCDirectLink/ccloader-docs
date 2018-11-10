@@ -31,7 +31,30 @@ Repeat the last step until there are no more layers left.
 * All current definition tables
 
 ## Who wants this
-* ac2pic (Author; Aliases: ac4pic, blueberry, Emilie Fc, Emilio Firecrow; Discord: 208763015657553921)
+* ~~ac2pic (Author; Aliases: ac4pic, blueberry, Emilie Fc, Emilio Firecrow; Discord: 208763015657553921)~~
+
+## Conclusion
+
+The use of `"type": "dynamic"` on the condition of the `"type": "select"` of the definition covers all usecases of this proposals without causing the explained disadvantages.
+
+Existing example:
+
+```json
+        "storage": {
+            "type": "select",
+            "pattern": "left.property.name",
+            "from": {
+                "type": "AssignmentExpression",
+                "values": [
+                    {
+                        "name": "right.callee.property.name",
+                        "value": "Storage",
+                        "type": "dynamic"
+                    }
+                ]
+            }
+        },
+```
 
 ## References
 Original Document: https://docs.google.com/document/d/1a7PvKg3BbOsCPnK41ZS-40g_q5Cg0lQepQ56rd0YUPg/edit
