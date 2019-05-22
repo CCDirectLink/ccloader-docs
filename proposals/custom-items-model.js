@@ -131,7 +131,7 @@ ig.module("proposal.game.feature.custom-items.custom-items-model").requires("gam
 				data["itemNew"][i] = remapRemoteItem(data["itemNew"][i]);
 
 			var newItemToggles = {};
-			for (k in data["itemToggles"])
+			for (var k in data["itemToggles"])
 				newItemToggles[remapRemoteItem(k)] = data["itemToggles"][k];
 			data["itemToggles"] = newItemToggles;
 
