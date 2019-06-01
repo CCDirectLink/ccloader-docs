@@ -58,7 +58,7 @@ document.addEventListener('preload', () => console.log('preload'));
 
 ## Postload
 
-In the postload stage the game code has been initialized and the game is waiting for the start call. Not that at this point, some paths (for assets, etc) have already been set.
+In the postload stage the game code has been initialized and the game is waiting for the start call. Note that at this point, some paths (for assets, etc) have already been set.
 
 In order to use this stage you have to specify a script in the mod's package.json `postload` entry.
 
